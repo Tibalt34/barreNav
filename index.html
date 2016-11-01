@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, , minimum-scale=1, user-scalable=no"><!--responsive---->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/><!--bootstrap----->
+    <link rel="stylesheet" href="./css/main.css"/><!---css------>
+    <title>Barre de nav</title>
+  </head>
+  <body>
+
+<!--barre de nav bootstrap avec effet dropdown-->
+
+    <nav class="col-xs-12 containernav">
+        <ul class="groupelistenav">
+          <li class="listenav"><a href="#">Téléphone</a></li>
+          <li class="listenav"><a href="#">Ordinateur</a></li>
+          <li class="listenav"><a href="#">Tablette</a></li>
+          <div class="dropdown">
+              <button class="btn btn-primary dropdown-toggle espacemembre "type="button"
+              data-toggle="dropdown">Espace membre
+                  <span class="caret "></span></button>
+                  <ul class="dropdown-menu">
+                      <li><a href="#">Connexion</a></li>
+                      <li><a href="#">Inscription</a></li>
+                      <li><a href="#">Contact</a></li>
+                  </ul>
+         </div>
+        </ul>
+    </nav>
+
+  </body>
+  <script src="./js/jquery.js"></script> <!-- jquery -->
+  <script src="./js/js.js"></script> <!-- javascript -->
+  <script src="./js/bootstrap.min.js"></script><!--bootstrap.min.js-->
+  </html>
